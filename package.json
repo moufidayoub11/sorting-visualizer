@@ -1,9 +1,9 @@
 {
-  "name": "gulp-sass-boilerplate",
+  "name": "sorting-visuaizer",
   "version": "1.0.0",
-  "description": "Minimal Gulp workflow to compile Sass",
+  "description": "A sorting visualizer",
   "keywords": [],
-  "author": "Jessica Chan (Coder Coder)",
+  "author": "moufidayoub",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.14.8",
