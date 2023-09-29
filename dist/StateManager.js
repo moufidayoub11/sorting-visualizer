@@ -1,0 +1,2 @@
+export default class StateManager{constructor(){if(StateManager.instance)return StateManager.instance;this.state=!1,this.mute=!1,this.array=[],this.barElements=[],this.audioContext=null,StateManager.instance=this}setState(t){this.state=t}getState(){return this.state}setArray(t){this.array=t}getArray(){return this.array}setBarElements(t){this.barElements=t}getBarElements(){return this.barElements}setAudioContext(t){this.audioContext=t}getAudioContext(){return this.audioContext}setMute(t){this.mute=t}getMute(){return this.mute}}
+//# sourceMappingURL=StateManager.js.map

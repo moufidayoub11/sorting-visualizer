@@ -1,0 +1,2 @@
+export default class Utils{static randomInt(t,e){return Math.floor(Math.random()*(e-t+1)+t)}static sleep(t){return new Promise((e=>setTimeout(e,t)))}static toTwoDec(t){return Math.max(parseFloat(t.toFixed(2)),.1)}static shuffle(t){let e,a=t.length;for(;0!==a;)e=Math.floor(Math.random()*a),a--,[t[a],t[e]]=[t[e],t[a]];return t}}
+//# sourceMappingURL=Utils.js.map

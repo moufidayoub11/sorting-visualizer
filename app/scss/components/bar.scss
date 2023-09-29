@@ -1,0 +1,22 @@
+@use "../util" as *;
+
+.bars-container {
+    transform: scaleX(-1) rotate(180deg);
+    margin-top: rem(10);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0 rem(20) 0 rem(20);
+}
+
+.bar {
+    transition: height 0.3s ease-out;
+    margin: 0 rem(1);
+    background-color: #22668d;
+}
+
+.created {
+    transition: all 1s ease-in-out;
+}

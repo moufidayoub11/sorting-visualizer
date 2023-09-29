@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title></title>
+	<link rel="stylesheet" href="./dist/style.css" />
+	<script type="module" src="./dist/script.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="navbar">
+		<nav class="navbar__wrapper">
+			<div class="navbar-title">
+				<h1>Sorting Visualiser</h1>
+			</div>
+			<div class="navbar-algorithm">
+				<div class="select-wrapper">
+					<select id="algorithm-select">
+						<option value="merge">Merge Sort</option>
+						<option value="heap">Heap Sort</option>
+						<option value="quick">Quick Sort</option>
+						<option value="radix">Radix Sort</option>
+						<option value="bubble">Bubble Sort</option>
+					</select>
+				</div>
+			</div>
+			<div class="navbar-array-size">
+				<label for="array-size">Array Size & Speed:</label>
+				<input type="range" id="array-size" min="10" max="250" value="75">
+			</div>
+			<div class="navbar-buttons">
+				<button class="navbar-buttons-sort">Sort!</button>
+				<button class="navbar-buttons-clear">Reset!</button>
+				<button class="navbar-buttons-volume">Mute!</button>
+			</div>
+		</nav>
+	</div>
+	<div class="bars-container"></div>
+</body>
+
+
+</html>

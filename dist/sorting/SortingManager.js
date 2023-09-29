@@ -1,0 +1,2 @@
+import BubbleSort from"./BubbleSort.js";import HeapSort from"./HeapSort.js";import MergeSort from"./MergeSort.js";import QuickSort from"./QuickSort.js";import RadixSort from"./RadixSort.js";export default class SortingManager{constructor(r){this.array=r}bubbleSort(){return new BubbleSort(this.array).sort()}mergeSort(){return new MergeSort(this.array).sort()}heapSort(){return new HeapSort(this.array).sort()}radixSort(){return new RadixSort(this.array).sort()}quickSort(){return new QuickSort(this.array).sort()}}
+//# sourceMappingURL=SortingManager.js.map
